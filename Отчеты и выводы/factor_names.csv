@@ -1,0 +1,16 @@
+﻿Фактор,Переменные,Ответ
+Фактор 1,"RLFMAC, RLFMES, RLFPOS, VEGASS, VEGWB, VEGSG, PARGEN, MOISTR, COLHT, COLTYP, COLSHD, COL1DOM, GRSFLD, STRADD, STRUCT, HCLINT, ROTABD, Elements, ADDMRF",Ошибка API
+Фактор 2,"LOSA, EXSAT, PHH2O, PHSLT, EXH, HA",Ошибка API
+Фактор 3,"NTOT, CECST, CECBS, EXCA, EXMG",Ошибка API
+Фактор 4,"PARCMP, TEXTSTNS, TEXSCM, TEXTSIC, TEXTSIF",Ошибка API
+Фактор 5,"R2O3, AL2O3, FE2O3, TIO2, FEOX",Ошибка API
+Фактор 6,"SPRDEPR, NA2O",Ошибка API
+Фактор 7,"VEGSG, SPRGEN, SPRCMP",Ошибка API
+Фактор 8,"GWMNR, SOIL_ID, HCLP, EXNA",Ошибка API
+Фактор 9,"GWLVL, COL1HUE, ELCOCL",Ошибка API
+Фактор 10,"LOSA, CAO, MGO",Ошибка API
+Фактор 11,"PMOB, KMOB",Ошибка API
+Фактор 12,"NLAER, NSMPL",Ошибка API
+Фактор 13,FEOX,Ошибка API
+Фактор 14,VEGML,Ошибка API
+Фактор 15,"GRSADD, ROTSZE",Ошибка API

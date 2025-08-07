@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>299</width>
+    <height>290</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgba(170, 170, 127, 80)</string>
+  </property>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>11</y>
+     <width>271</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Factor 1 - Почвенная влажность и электрические свойства</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="background">
+     <brush brushstyle="NoBrush">
+      <color alpha="255">
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </brush>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 2 - Химический состав иловых компонентов</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 3 - Гранулометрический состав почвы</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 4 - Физические свойства и структура почвы</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 5 - Органические компоненты СФК</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 6 - Минеральный состав почвы по размерам частиц</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 7 - Глубина и отбор образцов почвы</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 8 - Группы фосфатов в почве</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 9 - Химический состав основных элементов в почве</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 10 - Органические компоненты СГК</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 11 - Структура корневой системы</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 12 - Характеристики цвета по системе Манселла</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 13 - Физические свойства влажности почвы</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 14 - Сумма катионов и анионов в почве</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 15 - Органический углерод и общий азот в почве</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 16 - Химический состав и минеральные компоненты почвы</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 17 - Обменный кальций и магний в почве</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 18 - Источник нарушения профиля и уровень скальности</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 19 - Состав и степень каменистости минерального скелета</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 20 - Обменные основания в почве</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 21 - Интенсивность и тип эрозии почвы</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 22 - Текстурный анализ почв</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 23 - Химический состав почвы в солевых отложениях</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 24 - Количество и порядковый номер образцов в горизонте</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 25 - Подвижный калий и фосфор в почве</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 26 - Присутствие мицелия и водорослевой пленки в почве</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 27 - Содержание кальция и магния в почве</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 28 - Содержание аморфного алюминия и железа в почве</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 29 - Гидролитическая кислотность</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 30 - Уровень обнаружения грунтовых вод и глубина залегания</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 31 - Характеристики преобладающего цвета по Манселла</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 32 - Тип эрозии и размер частиц текстурного анализа</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 33 - Содержание оксидов кальция и магния в почве</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 34 - Полная влагоемкость и водопроницаемость почвы</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 35 - Содержание оксида марганца в почве</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 36 - Содержание органического железа в почве</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 37 - Фракции почвенного материала (3-2 мм и 5-3 мм)</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 38 - Содержание ила в почве</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 39 - Содержание хлорид-ионов в почве</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 40 - Форма склона почвы</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 41 - Фактор дисперсности и содержание частиц меньше 0,001 мм в почве</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 42 - Неоднозначный фактор №1</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 43 - Фракция почвенного материала размером от 10 до 7 мм</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 44 - Фракция почвенного материала размером менее 0,25 мм</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 45 - Фракции почвенного материала размером от 1 до 0,25 мм и от 0,25 до 0,05 мм</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 46 - Количество горизонтов в почвенном профиле</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 47 - Фракция почвенного материала размером от 2 до 1 мм</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 48 - Высота над уровнем моря</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 49 - Зольность и содержание фосфорной кислоты (P2O5) в почве</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 50 - Неоднозначный фактор №2</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 51 - Неоднозначный фактор №3</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 52 - Неоднозначный фактор №4</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 53 - Содержание диоксида титана (TiO2) в иловых компонентах почвы</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 54 - Неоднозначный фактор №5</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 55 - Неоднозначный фактор №6</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Factor 56 - Неоднозначный фактор №7</string>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
