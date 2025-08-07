@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+hashlib
+pathlib
+matplotlib
+seaborn
+requests
+re
+json
